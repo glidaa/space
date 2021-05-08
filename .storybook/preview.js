@@ -20,7 +20,7 @@ export const parameters = {
     url: 
     process.env.NODE_ENV === 'production'
         ? '/playroom/'
-        : 'http://localhost:4242',
+        : 'http://localhost:9000',
   }
 };
 
