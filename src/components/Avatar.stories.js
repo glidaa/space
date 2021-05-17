@@ -14,9 +14,9 @@ export default {
 const Base = ({ src, ...props }) => (
   <div>
     <Avatar isLoading {...props} />
-    <Avatar username="Tom Coleman" {...props} />
+    <Avatar username="Michael Castleman" {...props} />
     <Avatar
-      username="Tom Coleman"
+      username="Michael Castleman"
       src={src || 'https://avatars2.githubusercontent.com/u/132554'}
       {...props}
     />
