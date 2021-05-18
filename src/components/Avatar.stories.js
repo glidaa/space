@@ -17,7 +17,7 @@ const Base = ({ src, ...props }) => (
     <Avatar username="Michael Castleman" {...props} />
     <Avatar
       username="Michael Castleman"
-      src={src || 'https://avatars2.githubusercontent.com/u/132554'}
+      src={src || 'https://avatars2.githubusercontent.com/u/13914364'}
       {...props}
     />
   </div>

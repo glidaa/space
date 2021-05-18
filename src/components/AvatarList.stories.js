@@ -6,17 +6,17 @@ export const users = [
   {
     id: '1',
     name: 'Dominic Nguyen',
-    avatarUrl: 'https://avatars2.githubusercontent.com/u/263385',
+    avatarUrl: 'https://avatars2.githubusercontent.com/u/13914364',
   },
   {
     id: '2',
     name: 'Tom Coleman',
-    avatarUrl: 'https://avatars2.githubusercontent.com/u/132554',
+    avatarUrl: 'https://avatars2.githubusercontent.com/u/13914364',
   },
   {
     id: '3',
     name: 'Zoltan Olah',
-    avatarUrl: 'https://avatars0.githubusercontent.com/u/81672',
+    avatarUrl: 'https://avatars0.githubusercontent.com/u/13914364',
   },
   {
     id: '4',

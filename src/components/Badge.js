@@ -7,7 +7,7 @@ const BadgeWrapper = styled.div`
   display: inline-block;
   vertical-align: top;
   font-size: 11px;
-  line-height: 12px;
+  line-height: 20px;
   padding: 4px 12px;
   border-radius: 3em;
   font-weight: ${typography.weight.bold};
