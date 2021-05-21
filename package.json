@@ -47,6 +47,7 @@
     ]
   },
   "dependencies": {
+    "@emotion/styled": "^11.3.0",
     "@storybook/design-system": "^5.5.1",
     "@types/pluralize": "^0.0.29",
     "autoprefixer": "^9.8.6",
@@ -70,6 +71,7 @@
     "@babel/preset-env": "^7.10.2",
     "@babel/preset-react": "^7.10.1",
     "@babel/preset-typescript": "^7.10.1",
+    "@react-theming/storybook-addon": "^1.1.1",
     "@storybook/addon-a11y": "^6.2.9",
     "@storybook/addon-actions": "^6.2.0",
     "@storybook/addon-docs": "^6.2.0",

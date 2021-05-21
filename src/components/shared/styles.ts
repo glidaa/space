@@ -1,5 +1,7 @@
 import { css } from 'styled-components';
 import { rgba } from 'polished';
+import styled from '@emotion/styled'
+
 
 // Global style variables
 export const background = {
@@ -41,6 +43,259 @@ export const color = {
   negative: '#FF4400',
   warning: '#E69D00',
 };
+
+export const Button = styled.button`
+  padding: 12px;
+  background-color: ${color.primary};
+  font-size: 14px;
+  border-radius: 4px;
+  color: black;
+  font-weight: bold;
+  margin-bottom:10px;
+  &:hover {
+    color: white;
+  }
+`
+export const Button1 = styled.button`
+  padding: 12px;
+  background-color: ${color.secondary};
+  font-size: 14px;
+  border-radius: 4px;
+  color: black;
+  font-weight: bold;
+  margin-bottom:10px;
+  &:hover {
+    color: white;
+  }
+`
+export const Button2 = styled.button`
+  padding: 12px;
+  background-color: ${color.tertiary};
+  font-size: 14px;
+  border-radius: 4px;
+  color: black;
+  font-weight: bold;
+  margin-bottom:10px;
+  &:hover {
+    color: white;
+  }
+`
+export const Button3 = styled.button`
+  padding: 12px;
+  background-color: ${color.positive};
+  font-size: 14px;
+  border-radius: 4px;
+  color: black;
+  font-weight: bold;
+  margin-bottom:10px;
+  &:hover {
+    color: white;
+  }
+`
+export const Button4 = styled.button`
+  padding: 12px;
+  background-color: ${color.warning};
+  font-size: 14px;
+  border-radius: 4px;
+  color: black;
+  font-weight: bold;
+  margin-bottom:10px;
+  &:hover {
+    color: white;
+  }
+`
+export const Button5 = styled.button`
+  padding: 12px;
+  background-color: ${color.negative};
+  font-size: 14px;
+  border-radius: 4px;
+  color: black;
+  font-weight: bold;
+  margin-bottom:10px;
+  &:hover {
+    color: white;
+  }
+`
+export const Button6 = styled.button`
+  padding: 12px;
+  background-color: ${color.orange};
+  font-size: 14px;
+  border-radius: 4px;
+  color: black;
+  font-weight: bold;
+  margin-bottom:10px;
+  &:hover {
+    color: white;
+  }
+`
+export const Button7 = styled.button`
+  padding: 12px;
+  background-color: ${color.gold};
+  font-size: 14px;
+  border-radius: 4px;
+  color: black;
+  font-weight: bold;
+  margin-bottom:10px;
+  &:hover {
+    color: white;
+  }
+`
+export const Button8 = styled.button`
+  padding: 12px;
+  background-color: ${color.green};
+  font-size: 14px;
+  border-radius: 4px;
+  color: black;
+  font-weight: bold;
+  margin-bottom:10px;
+  &:hover {
+    color: white;
+  }
+`
+export const Button9 = styled.button`
+  padding: 12px;
+  background-color: ${color.seafoam};
+  font-size: 14px;
+  border-radius: 4px;
+  color: black;
+  font-weight: bold;
+  margin-bottom:10px;
+  &:hover {
+    color: white;
+  }
+`
+export const Button10 = styled.button`
+  padding: 12px;
+  background-color: ${color.purple};
+  font-size: 14px;
+  border-radius: 4px;
+  color: black;
+  font-weight: bold;
+  margin-bottom:10px;
+  &:hover {
+    color: white;
+  }
+`
+export const Button11 = styled.button`
+  padding: 12px;
+  background-color: ${color.ultraviolet};
+  font-size: 14px;
+  border-radius: 4px;
+  color: black;
+  font-weight: bold;
+  margin-bottom:10px;
+  &:hover {
+    color: white;
+  }
+`
+export const Button12 = styled.button`
+  padding: 12px;
+  background-color: ${color.darkest};
+  font-size: 14px;
+  border-radius: 4px;
+  color: black;
+  font-weight: bold;
+  margin-bottom:10px;
+  &:hover {
+    color: white;
+  }
+`
+export const Button13 = styled.button`
+  padding: 12px;
+  background-color: ${color.darker};
+  font-size: 14px;
+  border-radius: 4px;
+  color: black;
+  font-weight: bold;
+  margin-bottom:10px;
+  &:hover {
+    color: white;
+  }
+`
+export const Button14 = styled.button`
+  padding: 12px;
+  background-color: ${color.dark};
+  font-size: 14px;
+  border-radius: 4px;
+  color: black;
+  font-weight: bold;
+  margin-bottom:10px;
+  &:hover {
+    color: white;
+  }
+`
+export const Button15 = styled.button`
+  padding: 12px;
+  background-color: ${color.mediumdark};
+  font-size: 14px;
+  border-radius: 4px;
+  color: black;
+  font-weight: bold;
+  margin-bottom:10px;
+  &:hover {
+    color: white;
+  }
+`
+export const Button16 = styled.button`
+  padding: 12px;
+  background-color: ${color.medium};
+  font-size: 14px;
+  border-radius: 4px;
+  color: black;
+  font-weight: bold;
+  margin-bottom:10px;
+  &:hover {
+    color: white;
+  }
+`
+export const Button17 = styled.button`
+  padding: 12px;
+  background-color: ${color.mediumlight};
+  font-size: 14px;
+  border-radius: 4px;
+  color: black;
+  font-weight: bold;
+  margin-bottom:10px;
+  &:hover {
+    color: white;
+  }
+`
+export const Button18 = styled.button`
+  padding: 12px;
+  background-color: ${color.light};
+  font-size: 14px;
+  border-radius: 4px;
+  color: black;
+  font-weight: bold;
+  margin-bottom:10px;
+  &:hover {
+    color: white;
+  }
+`
+export const Button19 = styled.button`
+  padding: 12px;
+  background-color: ${color.lighter};
+  font-size: 14px;
+  border-radius: 4px;
+  color: black;
+  font-weight: bold;
+  margin-bottom:10px;
+  &:hover {
+    color: white;
+  }
+`
+export const Button20 = styled.button`
+  padding: 12px;
+  background-color: ${color.lightest};
+  font-size: 14px;
+  border-radius: 4px;
+  color: black;
+  font-weight: bold;
+  margin-bottom:10px;
+  &:hover {
+    color: white;
+  }
+`
 
 export const spacing = {
   padding: {
