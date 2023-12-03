@@ -1,0 +1,78 @@
+{
+  "version": "6.0",
+  "nxVersion": "17.1.3",
+  "deps": {},
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "projectFileMap": {
+      "workspace": [
+        {
+          "file": ".eslintrc.json",
+          "hash": "4104131952441610702"
+        },
+        {
+          "file": "app/api/hello/route.ts",
+          "hash": "495073956729887886"
+        },
+        {
+          "file": "app/global.css",
+          "hash": "14808637317742386103"
+        },
+        {
+          "file": "app/layout.tsx",
+          "hash": "12139137822110712582"
+        },
+        {
+          "file": "app/page.module.scss",
+          "hash": "4786619528779355986"
+        },
+        {
+          "file": "app/page.tsx",
+          "hash": "16677936105486250763"
+        },
+        {
+          "file": "index.d.ts",
+          "hash": "5498222895072842432"
+        },
+        {
+          "file": "jest.config.ts",
+          "hash": "12509838135850029865"
+        },
+        {
+          "file": "next-env.d.ts",
+          "hash": "5909181270615354023"
+        },
+        {
+          "file": "next.config.js",
+          "hash": "17252635002163063865"
+        },
+        {
+          "file": "package.json",
+          "hash": "8532721442991248370"
+        },
+        {
+          "file": "project.json",
+          "hash": "7865979443200324621"
+        },
+        {
+          "file": "public/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "public/favicon.ico",
+          "hash": "9303420814833116677"
+        },
+        {
+          "file": "tsconfig.json",
+          "hash": "1839051107358785886"
+        },
+        {
+          "file": "tsconfig.spec.json",
+          "hash": "6922413205408300107"
+        }
+      ]
+    },
+    "nonProjectFiles": []
+  }
+}

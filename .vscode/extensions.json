@@ -1,6 +1,8 @@
 {
-    "recommendations": [
-        "ecmel.vscode-html-css",
-        "zignd.html-css-class-completion"
-    ]
+  "recommendations": [
+    "ecmel.vscode-html-css",
+    "zignd.html-css-class-completion",
+    "esbenp.prettier-vscode",
+    "firsttris.vscode-jest-runner"
+  ]
 }

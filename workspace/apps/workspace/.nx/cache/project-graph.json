@@ -1,0 +1,102 @@
+{
+  "nodes": {
+    "workspace": {
+      "name": "workspace",
+      "type": "app",
+      "data": {
+        "root": ".",
+        "name": "workspace",
+        "targets": {
+          "start": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "start"
+            },
+            "configurations": {}
+          },
+          "nx-release-publish": {
+            "dependsOn": [
+              "^nx-release-publish"
+            ],
+            "executor": "@nx/js:release-publish",
+            "options": {},
+            "configurations": {}
+          },
+          "build": {
+            "executor": "@nx/next:build",
+            "outputs": [
+              "{options.outputPath}"
+            ],
+            "defaultConfiguration": "production",
+            "options": {
+              "outputPath": "dist/apps/workspace"
+            },
+            "configurations": {
+              "development": {
+                "outputPath": "apps/workspace"
+              },
+              "production": {}
+            }
+          },
+          "serve": {
+            "executor": "@nx/next:server",
+            "defaultConfiguration": "development",
+            "options": {
+              "buildTarget": "workspace:build",
+              "dev": true
+            },
+            "configurations": {
+              "development": {
+                "buildTarget": "workspace:build:development",
+                "dev": true
+              },
+              "production": {
+                "buildTarget": "workspace:build:production",
+                "dev": false
+              }
+            }
+          },
+          "export": {
+            "executor": "@nx/next:export",
+            "options": {
+              "buildTarget": "workspace:build:production"
+            },
+            "configurations": {}
+          },
+          "test": {
+            "executor": "@nx/jest:jest",
+            "outputs": [
+              "{workspaceRoot}/coverage/{projectRoot}"
+            ],
+            "options": {
+              "jestConfig": "apps/workspace/jest.config.ts"
+            },
+            "configurations": {}
+          },
+          "lint": {
+            "executor": "@nx/eslint:lint",
+            "outputs": [
+              "{options.outputFile}"
+            ],
+            "options": {
+              "lintFilePatterns": [
+                "apps/workspace/**/*.{ts,tsx,js,jsx}"
+              ]
+            },
+            "configurations": {}
+          }
+        },
+        "$schema": "../../node_modules/nx/schemas/project-schema.json",
+        "sourceRoot": "apps/workspace",
+        "projectType": "application",
+        "tags": [],
+        "implicitDependencies": []
+      }
+    }
+  },
+  "externalNodes": {},
+  "dependencies": {
+    "workspace": []
+  },
+  "version": "6.0"
+}

@@ -24,3 +24,8 @@ yarn-error.log*
 
 # we use yarn
 package-lock.json
+
+.nx/cache
+
+# Next.js
+.next

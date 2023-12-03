@@ -44,8 +44,10 @@ const HeaderPlayRoom: React.FC<PlayRoomProps> = ({ logo, colorScheme, text, onCl
       >
         {text || 'Australia Government Website'}
       </h1>
+      
       <Container>
         <div
+        
           style={{
             display: 'flex',
             alignItems: 'flex-start',
@@ -186,6 +188,7 @@ const HeaderPlayRoom: React.FC<PlayRoomProps> = ({ logo, colorScheme, text, onCl
           </span>
         </div>
       </div>
+      <Conponet/>
 
       <Button disabled inverted onClick={handleButtonClick}>¡Welcome!</Button>
     </>

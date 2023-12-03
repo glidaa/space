@@ -1,0 +1,28 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "es5",
+    "module": "commonjs",
+    "lib": ["es2017", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "my": ["my/src/index.ts"],
+      "my-lib": ["my-lib/src/index.ts"],
+      "ui-lib": ["./workspace/ui-lib"]
+    }
+  },
+  "exclude": [
+    "**/dist",
+    "**/test.*",
+    "node_modules",
+    "**/node_modules",
+    "**/*.spec.ts",
+    "**/__tests__",
+    "**/*.test.ts",
+    "**/*.stories.*"
+  ]
+}
