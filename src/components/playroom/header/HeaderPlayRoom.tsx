@@ -188,7 +188,7 @@ const HeaderPlayRoom: React.FC<PlayRoomProps> = ({ logo, colorScheme, text, onCl
           </span>
         </div>
       </div>
-      <Conponet/>
+  
 
       <Button disabled inverted onClick={handleButtonClick}>¡Welcome!</Button>
     </>

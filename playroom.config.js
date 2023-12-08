@@ -3,7 +3,7 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = {
   components: './src/components/index.tsx',
-  outputPath: './storybook-static/playroom',
+  outputPath: './playroom',
   exampleCode: `
   <HeaderPlayRoom
   logo=""
@@ -78,7 +78,7 @@ module.exports = {
         {
           test: /\.css$/,
           include: path.resolve(__dirname, 'src'),
-          use: ['style-loader', 'css-loader',],
+          use: ['style-loader', 'css-loader'],
         },
         {
           test: /\.(svg|png|jpg)$/,
@@ -88,10 +88,7 @@ module.exports = {
         {
           test: /\.css$/,
           include: path.resolve(__dirname, 'node_modules/semantic-ui-css'),
-          use: [
-            MiniCssExtractPlugin.loader,
-            'css-loader',
-          ],
+          use: [MiniCssExtractPlugin.loader, 'css-loader'],
         },
       ],
     },
@@ -101,4 +98,3 @@ module.exports = {
     ],
   }),
 };
-
